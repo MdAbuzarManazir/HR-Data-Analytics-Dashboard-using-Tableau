@@ -8,15 +8,20 @@ You used Tableau for:
 
 1.Data connection (Excel/CSV)
 
-2.Data cleaning (Tableau Data Interpreter), 
-3.Calculated fields, 
-4.Charts & Dashboards, 
+2.Data cleaning (Tableau Data Interpreter)
+
+3.Calculated fields
+
+4.Charts & Dashboards
+
 5.Filters, parameters, and color formatting
 
 # 2. Microsoft Excel
 You used Excel for:
-Storing the dataset
-Basic data preparation (cleaning columns, handling nulls)
+
+1.Storing the dataset
+
+2.Basic data preparation (cleaning columns, handling nulls)
 
 # Charts, Visuals & Tableau Features Used
 Below is a breakdown of every chart you used and where in Tableau it appears.
