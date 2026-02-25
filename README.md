@@ -5,8 +5,8 @@
 # Tools Used
 # 1. Tableau Desktop
 You used Tableau for:
-1.Data connection (Excel/CSV)
 
+1.Data connection (Excel/CSV)
 
 2.Data cleaning (Tableau Data Interpreter), 
 3.Calculated fields, 
