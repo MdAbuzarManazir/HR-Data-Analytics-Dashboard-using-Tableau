@@ -4,22 +4,22 @@
 # 1.1 Tableau Desktop
 Tableau used for:
 
-Data connection (Excel/CSV)
+1. Data connection (Excel/CSV)
 
-Data cleaning (Tableau Data Interpreter)
+2. Data cleaning (Tableau Data Interpreter)
 
-Calculated fields
+3. Calculated fields
 
-Charts & Dashboards
+4. Charts & Dashboards
 
-Filters, parameters, and color formatting
+5. Filters, parameters, and color formatting
 
 # 1.2 Microsoft Excel
 Excel used for:
 
-Storing the dataset
+1. Storing the dataset
 
-Basic data preparation (cleaning columns, handling nulls)
+2. Basic data preparation (cleaning columns, handling nulls)
 
 # 2. Charts, Visuals & Tableau Features Used:
 Below is a breakdown of every chart you used and where in Tableau it appears.
@@ -27,230 +27,230 @@ Below is a breakdown of every chart you used and where in Tableau it appears.
 # 2.1 KPI Cards (Text Tables in Tableau)
 Created 5 KPI cards:
 
-Employee Count – 1,470
+1. Employee Count – 1,470
 
-Attrition Count – 237
+2. Attrition Count – 237
 
-Attrition Rate – 16.12%
+3. Attrition Rate – 16.12%
 
-Active Employees – 1,233
+4. Active Employees – 1,233
 
-Avg Age – 37
+5. Avg Age – 37
 
 # 2.2 Tableau features used
 
-Text Marks card
+1. Text Marks card
 
-Calculated Fields
+2. Calculated Fields:
 
-Attrition Rate = SUM(Attrition) / COUNT(Employees)
+- Attrition Rate = SUM(Attrition) / COUNT(Employees)
 
-Active Employees = Total – Attrition
+- Active Employees = Total – Attrition
 
-Formatting (background color, large font)
+3. Formatting (background color, large font)
 
 These KPIs help users quickly understand overall workforce health.
 
 # 2.3 Pie Chart – Department-wise Attrition
 
-Chart type: Pie Chart
+1. Chart type: Pie Chart
 
-Shows attrition distribution across departments:
+2. Shows attrition distribution across departments:
 
-Sales – 56.12%
+- Sales – 56.12%
 
-R&D – 38.82%
+- R&D – 38.82%
 
-HR – 5.06%
+- HR – 5.06%
 
 # 2.4 Tableau techniques used
 
-Marks → Pie
+1. Marks → Pie
 
-Color legend for departments
+2. Color legend for departments
 
-Label formatting to show % and count
+3. Label formatting to show % and count
 
-SUM(Attrition) as the measure
+4. SUM(Attrition) as the measure
 
-Department as dimension
+5. Department as dimension
 
 This instantly highlights high-attrition departments.
 
 # 2.5 Histogram / Bar Chart – Employees by Age Group
 
-Chart type: Histogram
+1. Chart type: Histogram
 
-Bin Size selector is a Tableau Parameter.
+2. Bin Size selector is a Tableau Parameter.
 
-Tableau features used:
+3. Tableau features used:
 
-Bins (Age → Create → Bin)
+- Bins (Age → Create → Bin)
 
-Histogram chart type
+- Histogram chart type
 
-Parameter control to adjust bin size dynamically
+- Parameter control to adjust bin size dynamically
 
-Color gradient based on employee count
+- Color gradient based on employee count
 
 This shows that the highest workforce concentration is in the 30–35 age group.
 
 # 2.6 Matrix Table – Job Satisfaction Rating
 
-Chart type: Text Table (Heatmap Table)
+1. Chart type: Text Table (Heatmap Table)
 
-Displays:
+2. Displays:
 
-Job roles
+- Job roles
 
-Satisfaction ratings (1–4)
+- Satisfaction ratings (1–4)
 
-Count of employees per rating
+- Count of employees per rating
 
-Tableau features used:
+3. Tableau features used:
 
-Rows → Job Role
+- Rows → Job Role
 
-Columns → Job Satisfaction
+- Columns → Job Satisfaction
 
-Measure Values (count of employees)
+- Measure Values (count of employees)
 
-Color encoding for heat intensity
+- Color encoding for heat intensity
 
 This serves as a comparative table to understand satisfaction distribution across roles.
 
 # 2.7 Horizontal Bar Chart – Education Field-wise Attrition
 
-Chart type: Bar Chart
+1. Chart type: Bar Chart
 
-Shows which education fields contribute more to attrition:
+2. Shows which education fields contribute more to attrition:
 
-Highest: Life Sciences, Medical
+3. Highest: Life Sciences, Medical
 
-Moderate: Marketing
+4. Moderate: Marketing
 
-Lowest: HR
+5. Lowest: HR
 
-Tableau features:
+6. Tableau features:
 
-Bars sorted by attrition count
+- Bars sorted by attrition count
 
-Category on Y-axis, measure on X-axis
+- Category on Y-axis, measure on X-axis
 
-Color-coded bars
+- Color-coded bars
 
 Useful for understanding the skill backgrounds affected most by attrition.
 
 # 2.8 Donut Charts – Attrition Rate by Gender Across Age Groups
 
-Chart type: Donut Chart (Pie Chart with Hole)
+1. Chart type: Donut Chart (Pie Chart with Hole)
 
-Created a series of donut charts, each representing an age range, showing:
+2. Created a series of donut charts, each representing an age range, showing:
 
-Female attrition %
+- Female attrition %
 
-Male attrition %
+- Male attrition %
 
-How you built it in Tableau:
+3. How you built it in Tableau:
 
-Pie chart
+- Pie chart
 
-Dual axis:
+4. Dual axis:
 
-Outer pie = male/female count
+- Outer pie = male/female count
 
-Inner circle = white circle to create the donut
+- Inner circle = white circle to create the donut
 
-Filtering by age bands
+- Filtering by age bands
 
-Separate dashboard containers for each donut
+S- eparate dashboard containers for each donut
 
 This reveals gender-specific attrition trends.
 
 # 2.9 Gender Comparison (Ribbon Chart / Horizontal Bar)
 
-Shows total attrition by:
+1. Shows total attrition by:
 
-Female → 87
+- Female → 87
 
-Male → 150
+- Male → 150
 
-Tableau features:
+2. Tableau features:
 
-Bar Chart
+- Bar Chart
 
-Color-coded by gender
+- Color-coded by gender
 
-Tooltips showing total attrition
+- Tooltips showing total attrition
 
 Helps identify attrition imbalance across genders.
 
 # 3. Background Image and Styling:
 
-Tableau features used:
+1. Tableau features used:
 
-Custom dashboard background image
+- Custom dashboard background image
 
-Floating containers for exact placement
+- Floating containers for exact placement
 
-Transparent backgrounds
+- Transparent backgrounds
 
-Consistent color theme (Blue/Teal/Orange)
+- Consistent color theme (Blue/Teal/Orange)
 
 This gives the dashboard a polished, professional UI. 
 
 # 4. Dataset Used:
 
-Your dataset likely included columns such as:
+1. Your dataset likely included columns such as:
 
-Age
+- Age
 
-Department
+- Department
 
-Education Field
+- Education Field
 
-Job Role
+- Job Role
 
-Gender
+- Gender
 
-Attrition (Yes/No)
+- Attrition (Yes/No)
 
-Job Satisfaction
+- Job Satisfaction
 
-Monthly Income
+- Monthly Income
 
-Years at Company
+- Years at Company
 
-Tableau pulled these fields to create:
+- Tableau pulled these fields to create:
 
-Dimensions
+- Dimensions
 
-Measures
+- Measures
 
-Calculated Attrition %
+- Calculated Attrition %
 
-Age bins
+- Age bins
 
 # 5. Overall Insights from the Dashboard:
 
 1. Sales has the highest attrition (56%):
    
-Indicates potential workload or management issues.
+- Indicates potential workload or management issues.
 
 2. Workforce is mostly 30–35 years old:
 
-This age group needs focused engagement.
+- This age group needs focused engagement.
 
 3. Male attrition is higher than female attrition
    
-Possible reasons: job type, job pressure, or industry patterns.
+- Possible reasons: job type, job pressure, or industry patterns.
 
 4. Life Sciences & Medical fields show higher exit rates
 
-Indicates domain-specific retention issues.
+- Indicates domain-specific retention issues.
 
 5. Mixed job satisfaction across roles
 
-Some roles need HR intervention.
+- Some roles need HR intervention.
 
 # Completed, Thank You........
