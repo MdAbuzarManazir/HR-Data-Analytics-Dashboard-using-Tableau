@@ -5,11 +5,11 @@
 # Tools Used
 # 1. Tableau Desktop
 You used Tableau for:
-Data connection (Excel/CSV), 
-Data cleaning (Tableau Data Interpreter), 
-Calculated fields, 
-Charts & Dashboards, 
-Filters, parameters, and color formatting
+1.Data connection (Excel/CSV), 
+2.Data cleaning (Tableau Data Interpreter), 
+3.Calculated fields, 
+4.Charts & Dashboards, 
+5.Filters, parameters, and color formatting
 
 # 2. Microsoft Excel
 You used Excel for:
