@@ -25,34 +25,56 @@ You used Excel for:
 Below is a breakdown of every chart you used and where in Tableau it appears.
 
 # 1. KPI Cards (Text Tables in Tableau)
-You created 5 KPI cards:
+Created 5 KPI cards:
+
 Employee Count – 1,470
+
 Attrition Count – 237
+
 Attrition Rate – 16.12%
+
 Active Employees – 1,233
+
 Avg Age – 37
 
 # Tableau features used:
+
 Text Marks card
+
 Calculated Fields
+
 Attrition Rate = SUM(Attrition) / COUNT(Employees)
+
 Active Employees = Total – Attrition
+
 Formatting (background color, large font)
+
 These KPIs help users quickly understand overall workforce health.
 
 # 2. Pie Chart – Department-wise Attrition
+
 Chart type: Pie Chart
+
 Shows attrition distribution across departments:
+
 Sales – 56.12%
+
 R&D – 38.82%
+
 HR – 5.06%
 
 # Tableau techniques used:
+
 Marks → Pie
+
 Color legend for departments
+
 Label formatting to show % and count
+
 SUM(Attrition) as the measure
+
 Department as dimension
+
 This instantly highlights high-attrition departments.
 
 # 3. Histogram / Bar Chart – Employees by Age Group
